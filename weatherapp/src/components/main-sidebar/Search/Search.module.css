@@ -1,0 +1,27 @@
+.search-field {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: auto;
+  height: 40px;
+  padding: 0rem 0.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  width: 100%;
+}
+.search-field:focus {
+  outline: 1px solid rgba(0, 0, 0, 0.4);
+}
+.container {
+  position: relative;
+}
+.container i {
+  position: absolute;
+  top: 32%;
+  right: 10px;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.container i:hover {
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
